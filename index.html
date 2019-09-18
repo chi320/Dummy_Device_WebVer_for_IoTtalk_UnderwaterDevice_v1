@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+  <head>
+    <title>Dummy_Device</title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/csmapi.js"></script> 
+    <script src="js/dan.js"></script>
+    <script src="js/dai.js"></script>
+    <script src="js/ida.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/switch.css">
+	<link rel="stylesheet" href="knob/knobKnob.css">
+	<script src="knob/transform.js"></script>
+	<script src="knob/knobKnob.jquery.js"></script>
+	
+  </head>
+
+  <body>
+	
+    <legend >temp</legend>
+    <legend class='ODF_temp'>_____________</legend>
+	    <legend >humi</legend>
+    <legend class='ODF_humi'>_____________</legend>
+	    <legend >volt5</legend>
+    <legend class='ODF_volt5'>_____________</legend>
+	    <legend >volt12</legend>
+    <legend class='ODF_volt12'>_____________</legend>
+	    <legend >gyro-pitch</legend>
+    <legend class='ODF_gyro_pitch'>_____________</legend>
+	    <legend >gyro-roll</legend>
+    <legend class='ODF_gyro_roll'>_____________</legend>
+	<br>
+	<br>
+	
+	<!--legend>Switch</legend-->
+    <span>Camera</span>
+    <div id="Switch1" class="toggle-button">
+        <button></button>
+    </div>
+    <br>
+	<br>
+	
+	<legend>Red LED</legend>
+    <div style='margin-top:-33px; margin-bottom:15px;'  type='text' role='RedLedI' class='knob-container'></div>
+	<legend>White LED</legend>
+    <div style='margin-top:-33px; margin-bottom:15px;'  type='text' role='WhiteLedI' class='knob-container'></div>
+	
+	
+	<!--
+    <legend >CameraON</legend>
+	<button onclick="dan.push('Switch1','1')" >Send</button> <br>
+	<legend >CameraOFF</legend>
+	<button onclick="dan.push('Switch1','0')" >Send</button> <br>
+	
+	<form name='form' id='form'>
+	RedLed：
+	<input type='text' name='RedLed' id='RedLed' /> 
+	<input type='button' name='submit' value='送出' onclick="dan.push('RedLed',[document.getElementById("RedLed")])" />
+	</form>
+	
+	<form name='form2' id='form2'>
+	WhiteLed：
+	<input type='text' name='WhiteLed' id='WhiteLed' /> 
+	<input type='button' name='submit2' value='送出' onclick="dan.push('WhiteLed',[document.getElementById("WhiteLed")])" />
+	</form>
+	
+
+	
+	
+	<legend >RedLed</legend>
+	<button onclick="dan.push('RedLed',[Math.random()])" >Send</button> <br>
+	<legend >WhiteLed</legend>
+	<button onclick="dan.push('WhiteLed',[Math.random()])" >Send</button> <br>
+    <br>
+	-->
+	
+  </body>
+</html>
