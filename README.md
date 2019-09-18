@@ -1,5 +1,3 @@
-# Dummy_Device_WebVersion
+# Dummy_Device_WebVersion_For_UnderwaterDevice
 
-This is a DA example in Javascript version, which has enabled automatic IDF push/ODF pull. Please see ida.js to find the details.
-
-2018.9.1: Add device_auth.
+Dummy_Device_WebVer_for_IoTtalk_v1 

@@ -6,12 +6,7 @@
 			'odf_list':[tempO, humiO, volt5O, volt12O, gyro_pitchO, gyro_rollO],
 		        'd_name': 'UnderwaterDevice',
         };
-		/*
-        function Dummy_Sensor(){
-            return Math.random();
-        }
-		'Switch1','RedLed','WhiteLed'
-		*/
+
         function tempO(data){
            $('.ODF_temp')[0].innerText=data[0];
         }
