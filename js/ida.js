@@ -3,7 +3,7 @@
         var profile = {
 		    'dm_name': 'Dummy_Device2',          
 			'idf_list':[Switch1,RedLedI,WhiteLedI],
-			'odf_list':[tempO, humiO, volt5O, volt12O, gyro_pitchO, gyro_rollO],
+			'odf_list':[tempO, humiO, volt5O, volt12O, gyro_pitchO, gyro_rollO, CameraO, RedLedO, WhiteLedO],
 		        'd_name': 'UnderwaterDevice',
         };
 
@@ -41,6 +41,18 @@
 		
 		function WhiteLedI(data){
            ;
+        }
+		
+		function CameraO(data){
+           $('.ODF_camera_status')[0].innerText=data[0];
+        }
+		
+		function RedLedO(data){
+           $('.ODF_redled_status')[0].innerText=data[0];
+        }
+		
+		function WhiteLedO(data){
+           $('.ODF_whiteled_status')[0].innerText=data[0];
         }
       
 /*******************************************************************/                
