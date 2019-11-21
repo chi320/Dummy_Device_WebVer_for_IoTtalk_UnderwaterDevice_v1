@@ -2,8 +2,8 @@
         csmapi.set_endpoint ('https://test.iottalk.tw');
         var profile = {
 		    'dm_name': 'Dummy_Device2',          
-			'idf_list':[Switch1,RedLedI,WhiteLedI],
-			'odf_list':[tempO, humiO, volt5O, volt12O, gyro_pitchO, gyro_rollO, CameraO, RedLedO, WhiteLedO],
+			'idf_list':[RedLedI,WhiteLedI],
+			'odf_list':[tempO, humiO, volt5O, volt12O, gyro_pitchO, gyro_rollO, RedLedO, WhiteLedO],
 		        'd_name': 'UnderwaterDevice',
         };
 
@@ -31,20 +31,12 @@
            $('.ODF_gyro_roll')[0].innerText=data[0];
         }
 		
-		function Switch1(data){
-           ;
-        }
-		
 		function RedLedI(data){
            ;
         }
 		
 		function WhiteLedI(data){
            ;
-        }
-		
-		function CameraO(data){
-           $('.ODF_camera_status')[0].innerText=data[0];
         }
 		
 		function RedLedO(data){
